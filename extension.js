@@ -55,13 +55,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
-        language: "english",
+        botName: "Ed_Bot",
+        language: "portuguese",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -91,18 +91,18 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Sabado 06 de junho - ANIVERSÁRIO DE 1 ANO DA ELECTRO BRASIL, VENHA FAZER A FESTA",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "http://electrobrasil.hol.es/Regras/",
         themeLink: null,
-        fbLink: null,
+        fbLink: "http://goo.gl/yb9qL3",
         youtubeLink: null,
-        website: null,
+        website: "http://electrobrasil.hol.es/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
